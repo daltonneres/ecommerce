@@ -729,3 +729,26 @@ details:focus {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
+/* EXEMPLO */
+.exemplo-box {
+  margin: 24px auto 0;
+  max-width: 760px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 24px;
+  text-align: center;
+  border-radius: 14px;
+  backdrop-filter: blur(6px);
+}
+
+.exemplo-box p {
+  color: var(--muted);
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.exemplo-btn {
+  font-size: 1rem;
+  padding: 12px 26px;
+}
